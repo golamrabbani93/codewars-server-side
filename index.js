@@ -3,10 +3,11 @@ const express = require('express');
 const app = express();
 
 const port = process.env.PORT || 5000;
-
+var cors = require('cors');
 const categories = require('./data/categories.json');
 const courses = require('./data/courses.json');
 
+app.use(cors());
 //*send all courses Category
 app.get('/course-category', (req, res) => {
 	res.send(categories);
