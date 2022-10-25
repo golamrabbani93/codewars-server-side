@@ -16,6 +16,12 @@ app.get('/course-category', (req, res) => {
 app.get('/courses', (req, res) => {
 	res.send(courses);
 });
+//* send single Courses by Id
+app.get('/course-details/:id', (req, res) => {
+	const id = req.params.id;
+	const details = courses.find((c) => c.id === id);
+	res.send(details);
+});
 app.get('/', (req, res) => {
 	res.send('Code war server is runing');
 });
