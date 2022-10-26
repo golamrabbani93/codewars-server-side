@@ -7,6 +7,7 @@ var cors = require('cors');
 const categories = require('./data/categories.json');
 const courses = require('./data/courses.json');
 const blog = require('./data/blog.json');
+const faq = require('./data/faq.json');
 
 app.use(cors());
 //*send all courses Category
@@ -16,6 +17,10 @@ app.get('/course-category', (req, res) => {
 //* send all Blog Qouestion
 app.get('/blog', (req, res) => {
 	res.send(blog);
+});
+//* send all faq
+app.get('/faq', (req, res) => {
+	res.send(faq);
 });
 //* send all Courses
 app.get('/courses', (req, res) => {
