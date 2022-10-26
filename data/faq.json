@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "Q": "Write clear and concise pages.",
+        "ans": "In terms of FAQ pages, 'the more the merrier' is actually a fallacy. Too much text can end up being too confusing, causing readers to have to search for the answer they need. Rather than writing long and eloquent paragraphs, it's best to be straightforward and brief when providing answers."
+    },
+    {
+        "id": 2,
+        "Q": "Regularly update each page.",
+        "ans": "Every FAQ page you have must be accurate. As your organization faces product launches and updates, your FAQ pages should reflect these changes as well. This means your team needs to consistently review each page and revise it after launching new features."
+    },
+    {
+        "id": 3,
+        "Q": "Include a search bar.",
+        "ans": "While it's helpful to list out all FAQ questions on a single page or link to them from a landing page, this dense format can end up being tedious for many customers. Often, customers come to a FAQ page with a single question in mind and are forced to scroll through tens or hundreds of other questions to find theirs. If they have access to a search bar, they can easily search their question or related keywords to save time."
+    },
+    {
+        "id": 4,
+        "Q": "Organize questions by category",
+        "ans": "What can also be tedious is listing all the questions in random order. This is especially frustrating for customers who have several related questions regarding a single topic. Thus, it's helpful if you divide up questions into overarching topics, such as products, security, and billing."
+    },
+    {
+        "id": 5,
+        "Q": "Link top questions",
+        "ans": "It's good to have categories laid out on the landing page of your FAQ section. However, there are likely some questions that are more popular than others. To save customers even more time, these top questions should have their own section and a link to their answer at the top of your FAQ page. That way you can maintain your categorical organization while making your most commonly asked questions more accessible."
+    }
+]
