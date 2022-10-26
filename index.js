@@ -6,11 +6,16 @@ const port = process.env.PORT || 5000;
 var cors = require('cors');
 const categories = require('./data/categories.json');
 const courses = require('./data/courses.json');
+const blog = require('./data/blog.json');
 
 app.use(cors());
 //*send all courses Category
 app.get('/course-category', (req, res) => {
 	res.send(categories);
+});
+//* send all Blog Qouestion
+app.get('/blog', (req, res) => {
+	res.send(blog);
 });
 //* send all Courses
 app.get('/courses', (req, res) => {
